@@ -37,22 +37,11 @@
             margin-right: 15px;
         }
 
-        .channel-pic{
-            width: 50px;
-            display: inline-block;
-            vertical-align: top;
-
-        }
-
-        .vid-info{
-            width: 200px;
-            display: inline-block;
-            background-color: gray;
-        }
 
         .pfp{
             width: 40px;
             border-radius: 45px;
+         
         }
         
         .thumbnail-row{
@@ -68,6 +57,10 @@
             margin-bottom: 5px;
         }
 
+        .vid-info-grid{
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
        
 
     </style>
@@ -80,7 +73,7 @@
         <div class="thumbnail-row">
             <img class="thumb" src="thumbnails/thumbnail-1.webp" alt="">
         </div>
-        <div>
+        <div class="vid-info-grid">
             <div class="channel-pic">
                 <img class="pfp" src="channel-pics/channel-1.jpeg" alt="">
             </div>
@@ -97,7 +90,7 @@
         <div class="thumbnail-row">
             <img class="thumb" src="thumbnails/thumbnail-2.webp" alt="">
         </div>
-        <div>
+        <div class="vid-info-grid">
             <div class="channel-pic">
                 <img class="pfp" src="channel-pics/channel-2.jpeg" alt="">
             </div>
